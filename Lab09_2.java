@@ -159,7 +159,7 @@ class Square extends Shape2Dim{
             }
             System.out.println();
             
-            for (i=1; i<N-1; i++){
+            for (i=1; i<n-1; i++){
                 fsq2 = "%" + 1 + "c%" + (N-1) + "c\n";
                 System.out.printf(fsq2, symbol, symbol);
             }
